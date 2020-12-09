@@ -12,6 +12,10 @@ Asus B360M TUF GAMING-BR
 >            Codec: ALC892,
 >            Revisions and Layouts:  0x100302, layout 1, 2, 3, 4, 5, 7, 12, 15, 16, 17, 18, 28, 31, 90, 92, 97, 99      
 >            Mini Kernel: 13 (10.9)
+> .
+> ..
+> For install and usage: https://github.com/acidanthera/AppleALC/wiki/Installation-and-usage
+
 
 #### **Keyboard, Trackpad**
 Both Apple Magic 2 acessories, Keyboard and Mouse.
