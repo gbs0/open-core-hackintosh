@@ -1,4 +1,3 @@
-
 #### **CPU INFO**
 Coffe Lake 9th Generation Intel Core i5 9400-F
 
@@ -20,8 +19,7 @@ Asus B360M TUF GAMING-BR
 #### **Keyboard, Trackpad**
 Both Apple Magic 2 acessories, Keyboard and Mouse.
 
-#### Network Controller models
+#### Network & Bluetooth Adapters
 Fenvi 
 
 #### Drive Model
-`lshw -class disk -class storage`
