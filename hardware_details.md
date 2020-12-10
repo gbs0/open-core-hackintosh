@@ -20,15 +20,8 @@ Asus B360M TUF GAMING-BR
 #### **Keyboard, Trackpad**
 Both Apple Magic 2 acessories, Keyboard and Mouse.
 
-#### Audio Codec - Motherboard
-`aplay -l`
-
 #### Network Controller models
-> Basic information:
-`lspci | grep -i 'network'`
-
-> In-Depth information:
-`lshw -class network`
+Fenvi 
 
 #### Drive Model
 `lshw -class disk -class storage`
