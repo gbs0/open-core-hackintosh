@@ -5,8 +5,8 @@
 
 - [X] Dortania - SDDT-Plug
 - [X] SDDT-USBX-DESKTOP
-- [ ] SSDT-AWAC
-- [ ] SDDT-PMC
+- [X] SSDT-AWAC
+- [X] SDDT-PMC
 
 > For this SSDT's requirements I just follow this guide: https://dortania.github.io/Getting-Started-With-ACPI/ssdt-methods/ssdt-prebuilt.html#desktop-coffee-lake
 
