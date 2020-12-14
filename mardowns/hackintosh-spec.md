@@ -8,6 +8,7 @@
  > See also:
  > https://dortania.github.io/OpenCore-Install-Guide/config.plist/#creating-your-config-plist
 
+------
 
 ### Getting start with ACPI Platform for Coffe Lake Intel Architecture
 > For better understanding of ACPI context: https://eclecticlight.co/2017/08/08/sleep-wake-and-startup-hardware-and-acpi/
@@ -35,18 +36,18 @@ So, some kext files I just ignored, since them are used only in **non-desktop** 
 The first Kext plugins for SMC control and macOS Boot:
 
 
-• [X] - VirtualSMC.kext
+- [X] - VirtualSMC.kext
 > Applied for initialize a Virtual System Management Control for macOS boot.
 
-• [X] - SMCProcessor.kext
+- [X] - SMCProcessor.kext
 > Applied for monitoring CPU temperature and functionalities. Doesn't work on AMD CPU based systems
 
-• [X] - SMCSuperIO.kext
+- [X] - SMCSuperIO.kext
 > Used for monitoring fan speed. Doesn't work on AMD CPU based systems
 
 Other Kernel Extensions:
 
-• [X] - Lilu.kext
+- [X] - Lilu.kext
 > Lilu plugin providing patches to select GPUs on macOS. In my case I'm using Radeon 5700XT GPU
 
 
