@@ -27,4 +27,25 @@ ie. B360(which is my case), B365, H310, H370, Z390. Z370 is not included
 #### Kext Files (Kernel Extensions)
 
 For this Intel build, I`m using the desktop version **chipset.** 
-So, some kext files I just ignored, since them are usable only in **non-desktop** versions.
+So, some kext files I just ignored, since them are used only in **non-desktop** versions.
+
+> To see the complete kext files provided by Open-Core guide: https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455036&cid=FE4038DA929BFB23
+
+The first Kext plugins for SMC control and macOS Boot:
+
+
+• [X] - VirtualSMC.kext
+> Applied for initialize a Virtual System Management Control for macOS boot.
+
+• [X] - SMCProcessor.kext
+> Applied for monitoring CPU temperature and functionalities. Doesn't work on AMD CPU based systems
+
+• [X] - SMCSuperIO.kext
+> Used for monitoring fan speed. Doesn't work on AMD CPU based systems
+
+Other Kernel Extensions:
+
+• [X] - Lilu.kext
+> Applied for initialize a Virtual System Management Control for macOS boot.
+
+
