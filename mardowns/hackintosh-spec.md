@@ -46,6 +46,6 @@ The first Kext plugins for SMC control and macOS Boot:
 Other Kernel Extensions:
 
 • [X] - Lilu.kext
-> Applied for initialize a Virtual System Management Control for macOS boot.
+> Lilu plugin providing patches to select GPUs on macOS. In my case I'm using Radeon 5700XT GPU
 
 
