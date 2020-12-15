@@ -20,6 +20,6 @@ Asus B360M TUF GAMING-BR
 Both Apple Magic 2 acessories, Keyboard and Mouse.
 
 #### Network & Bluetooth Adapters
-Fenvi XXXX
+Fenvi Wifi PCI-e Adapter Model BCM94360CS2
 
 #### Drive Model

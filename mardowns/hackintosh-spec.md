@@ -55,3 +55,6 @@ So, some kext files I just ignored, since them are used only in **non-desktop** 
 **Audio**
 - [] AppleALC.kext
 > 
+
+**Ethernet**
+- [] AppleALC.kext
