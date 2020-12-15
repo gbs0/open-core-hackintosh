@@ -56,5 +56,5 @@ So, some kext files I just ignored, since them are used only in **non-desktop** 
 - [ ] AppleALC.kext
 > 
 
-**Ethernet MB Ports**
+**Ethernet Motherboard Ports**
 - [ ] AppleALC.kext
