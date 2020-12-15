@@ -1,6 +1,6 @@
 > ### This README is about the tools and plugins that I use for build this hackintosh version
 
-#### File Structure
+### File Structure
  For macOS booting purposes, all the drivers, kernel extensions and hardware mapping are located on `EFI` folder
 
  Each directory inside `EFI` folder is structured by convention used in Hackintosh Builds.
@@ -56,5 +56,5 @@ So, some kext files I just ignored, since them are used only in **non-desktop** 
 - [] AppleALC.kext
 > 
 
-**Ethernet**
+**Ethernet MB Ports**
 - [] AppleALC.kext
