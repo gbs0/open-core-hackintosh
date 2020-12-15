@@ -35,7 +35,7 @@ So, some kext files I just ignored, since them are used only in **non-desktop** 
 
 **The first Kext plugins for SMC control and macOS Boot:**
 
-
+- [X] VirtualSMC.kext
 - [X] VirtualSMC.kext
 > Applied for initialize a Virtual System Management Control for macOS boot.
 
