@@ -46,7 +46,7 @@ So, some kext files I just ignored, since them are used only in **non-desktop** 
 
 **Other Kernel Extensions:**
 
-- [X] Lilu.kext
+- [X] Lilu.kext
 > Lilu plugin providing patches to select GPUs on macOS. In my case I'm using Radeon 5700XT GPU
 
 
