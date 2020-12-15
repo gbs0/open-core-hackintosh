@@ -44,9 +44,14 @@ So, some kext files I just ignored, since them are used only in **non-desktop** 
 - [X] SMCSuperIO.kext
 > Used for monitoring fan speed. Doesn't work on AMD CPU based systems
 
-**Other Kernel Extensions:**
+**Graphics Extensions:**
 
 - [X] Lilu.kext
 > Lilu plugin providing patches to select GPUs on macOS. In my case I'm using Radeon 5700XT GPU
 
+- [] Whatevergreen.kext
+> 
 
+**Audio**
+- [] AppleALC.kext
+> 
