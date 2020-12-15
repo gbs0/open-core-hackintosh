@@ -33,21 +33,21 @@ So, some kext files I just ignored, since them are used only in **non-desktop** 
 
 > To see the complete kext files provided by Open-Core guide: https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455036&cid=FE4038DA929BFB23
 
-The first Kext plugins for SMC control and macOS Boot:
+**The first Kext plugins for SMC control and macOS Boot:**
 
 
-- [X] - VirtualSMC.kext
+- [X] VirtualSMC.kext
 > Applied for initialize a Virtual System Management Control for macOS boot.
 
-- [X] - SMCProcessor.kext
+- [X] SMCProcessor.kext
 > Applied for monitoring CPU temperature and functionalities. Doesn't work on AMD CPU based systems
 
-- [X] - SMCSuperIO.kext
+- [X] SMCSuperIO.kext
 > Used for monitoring fan speed. Doesn't work on AMD CPU based systems
 
-Other Kernel Extensions:
+**Other Kernel Extensions:**
 
-- [X] - Lilu.kext
+- [X] Lilu.kext
 > Lilu plugin providing patches to select GPUs on macOS. In my case I'm using Radeon 5700XT GPU
 
 
