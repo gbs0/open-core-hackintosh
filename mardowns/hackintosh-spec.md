@@ -49,12 +49,12 @@ So, some kext files I just ignored, since them are used only in **non-desktop** 
 - [X] Lilu.kext
 > Lilu plugin providing patches to select GPUs on macOS. In my case I'm using Radeon 5700XT GPU
 
-- [] Whatevergreen.kext
+- [ ] Whatevergreen.kext
 > 
 
 **Audio**
-- [] AppleALC.kext
+- [ ] AppleALC.kext
 > 
 
 **Ethernet MB Ports**
-- [] AppleALC.kext
+- [ ] AppleALC.kext
