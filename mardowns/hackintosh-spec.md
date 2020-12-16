@@ -57,4 +57,6 @@ So, some kext files I just ignored, since them are used only in **non-desktop** 
 > Used for AppleHDA patching, allowing support for the majority of on-board sound controllers.
 
 **Ethernet Motherboard Ports**
-- [ ] AppleALC.kext
+- [X] IntelMausi
+> Intel's 82578, 82579, i217, i218 and i219 NICs are officially supported (which is my case).
+
