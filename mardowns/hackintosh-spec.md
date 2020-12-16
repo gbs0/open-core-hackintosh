@@ -64,3 +64,9 @@ So, some kext files I just ignored, since them are used only in **non-desktop** 
 
 - [X] NVMeFix.kext
 > Used for fixing power management and initialization on non-Apple NVMe
+
+- [X] CtlnaAHCIPort.kext
+> Need to be used instead due to numerous controllers being dropped from the  macOS Big Sur binary itself
+
+
+
