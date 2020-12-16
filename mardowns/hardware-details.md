@@ -22,4 +22,10 @@ Both Apple Magic 2 acessories, Keyboard and Mouse.
 #### Network & Bluetooth Adapters
 Fenvi Wifi PCI-e Adapter Model BCM94360CS2
 
-#### Drive Model
+#### Enthernet LAN Ports
+Intel® I219V, 1 x Gigabit LAN LAN
+TUF LANGuard
+
+#### Audio Ports
+Realtek® ALC887 w/ 8 channel - HD CODEC
+

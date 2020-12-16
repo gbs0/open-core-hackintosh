@@ -53,8 +53,8 @@ So, some kext files I just ignored, since them are used only in **non-desktop** 
 > 
 
 **Audio**
-- [ ] AppleALC.kext
-> 
+- [X] AppleALC.kext
+> Used for AppleHDA patching, allowing support for the majority of on-board sound controllers.
 
 **Ethernet Motherboard Ports**
 - [ ] AppleALC.kext
