@@ -11,8 +11,9 @@
 ------
 
 ### Getting start with Secondary System Description Table (SSDT) for Coffe Lake Intel Architecture
-> For better understanding of ACPI context: https://eclecticlight.co/2017/08/08/sleep-wake-and-startup-hardware-and-acpi/
 
+> For better understanding of ACPI context: https://eclecticlight.co/2017/08/08/sleep-wake-and-startup-hardware-and-acpi/
+x
 > For more depth info about Apple ACPI Platform, please visit: https://dortania.github.io/Getting-Started-With-ACPI/#a-quick-explainer-on-acpi
 
 - [X] Dortania - SDDT-Plug
