@@ -1,4 +1,4 @@
 */gibMacOS/
 ./gibMacOS/
 *.bat
-.bat
+.bat.DS_Store
