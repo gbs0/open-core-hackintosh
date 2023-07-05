@@ -4,9 +4,11 @@
 ### Bootloader
 To start our journey, we need a external flash storage to build the EFI bootloader directory:
 Some specs about the drive:
-• **Storage:** At least 2GB storage
-• **Partition Format:** GUID Map Partition
-• **File System:** MacOS Expanded
+| Requirement              | Description             |
+| -----------              | -----------             |
+| **Storage**              | At least 2GB storage    |
+| **Partition Format**     | GUID Map Partition      |
+| **File System**          | MacOS Expanded          |
 
 ### File Structure
  For macOS booting purposes, all the drivers, kernel extensions and hardware mapping are located on `EFI` folder
