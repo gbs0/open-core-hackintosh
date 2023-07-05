@@ -38,21 +38,23 @@ Some specs about the drive:
 
 ------
 
-### Getting start with Secondary System Description Table (SSDT) for Coffe Lake Intel Architecture
-
-> For better understanding of ACPI context: https://eclecticlight.co/2017/08/08/sleep-wake-and-startup-hardware-and-acpi/
-x
-> For more depth info about Apple ACPI Platform, please visit: https://dortania.github.io/Getting-Started-With-ACPI/#a-quick-explainer-on-acpi
-
-- [X] Dortania - SDDT-Plug
-- [X] SDDT-USBX-DESKTOP
-- [X] SSDT-AWAC
-- [X] SDDT-PMC
-
-> For this SSDT's requirements I just follow this guide: https://dortania.github.io/Getting-Started-With-ACPI/ssdt-methods/ssdt-prebuilt.html#desktop-coffee-lake
+### Start with SSDT (Secondary System Description Table) for Coffe Lake
 
 For better NRAM compatibility in this setup, SDDT-PMC is used to enable native NVRAM on "true" 300 series motherboards
 ie. B360(which is my case), B365, H310, H370, Z390. Z370 is not included
+
+• [X] Dortania - SDDT-Plug
+• [X] SDDT-USBX-DESKTOP
+• [X] SSDT-AWAC
+• [X] SDDT-PMC
+
+> For this SSDT's requirements I just follow this guide: https://dortania.github.io/Getting-Started-With-ACPI/ssdt-methods/ssdt-prebuilt.html#desktop-coffee-lake
+
+
+> For better understanding of ACPI context: https://eclecticlight.co/2017/08/08/sleep-wake-and-startup-hardware-and-acpi/
+
+
+> For more depth info about Apple ACPI Platform, please visit: https://dortania.github.io/Getting-Started-With-ACPI/#a-quick-explainer-on-acpi
 
 ------
 ### Kext Files (Kernel Extensions)
@@ -64,38 +66,38 @@ So, some kext files I just ignored, since them are used only in **non-desktop** 
 
 **The first Kext plugins for SMC control and macOS Boot:**
 
-- [X] VirtualSMC.kext
-> Applied for initialize a Virtual System Management Control for macOS boot.
+• [X] VirtualSMC.kext
+Initialize a Virtual System Management Control for macOS boot.
 
-- [X] SMCProcessor.kext
-> Applied for monitoring CPU temperature and functionalities. Doesn't work on AMD CPU based systems
+• [X] SMCProcessor.kext
+Monitoring CPU temperature and functionalities. Doesn't work on AMD CPU based systems
 
-- [X] SMCSuperIO.kext
-> Used for monitoring fan speed. Doesn't work on AMD CPU based systems
+• [X] SMCSuperIO.kext
+ Used for monitoring fan speed. Doesn't work on AMD CPU based systems
 
 **Graphics Extensions:**
 
-- [X] Lilu.kext
-> Lilu plugin providing patches to select GPUs on macOS. In my case I'm using Radeon 5700XT GPU
+• [X] Lilu.kext
+Lilu plugin providing patches to select GPUs on macOS. In my case I'm using Radeon 5700XT GPU
 
-- [ ] Whatevergreen.kext
-> 
+• [X] Whatevergreen.kext
+More GPU drivers and compatibility patches.
 
 **Audio**
-- [X] AppleALC.kext
-> Used for AppleHDA patching, allowing support for the majority of on-board sound controllers.
+• [X] AppleALC.kext
+Used for AppleHDA patching, allowing support for the majority of on-board sound controllers.
 
 **Ethernet Motherboard Ports**
-- [X] IntelMausi.kext
-> Intel's 82578, 82579, i217, i218 and i219 NICs are officially supported (which is my case).
+• [X] IntelMausi.kext
+Intel's 82578, 82579, i217, i218 and i219 NICs are officially supported (which is my case).
 
 **Extras:**
 
-- [X] NVMeFix.kext
-> Used for fixing power management and initialization on non-Apple NVMe
+• [X] NVMeFix.kext
+Used for fixing power management and initialization on non-Apple NVMe
 
-- [X] CtlnaAHCIPort.kext
-> Need to be used instead due to numerous controllers being dropped from the  macOS Big Sur binary itself
+• [X] CtlnaAHCIPort.kext
+Need to be used instead due to numerous controllers being dropped from the  macOS Big Sur binary itself
 
 
 
