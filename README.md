@@ -15,6 +15,24 @@ Some specs about the drive:
 
  Each directory inside `EFI` folder is structured by convention used in Hackintosh Builds.
 
+```
+📦EFI
+ ┣ 📂 BOOT
+   ┗ 📄BOOTx64.efi
+ ┣ 📂 OC
+   ┣ 📂 ACPI
+   ┃ ┣ 📄SSDT-AWAC.aml
+   ┃ ┣ 📄SSDT-EC-USBX.aml
+   ┃ ┣ 📄SSDT-PLUG.aml
+   ┃ ┗ 📄SSDT-PMC.aml
+   ┣ 📂 Drivers
+   ┣ 📂 Kexts
+   ┣ 📂 Resources
+   ┣ 📂 Tools 
+   ┣ 📄config.plist
+   ┗ 📄OpenCore.efi
+```
+
  > See also:
  > https://dortania.github.io/OpenCore-Install-Guide/config.plist/#creating-your-config-plist
 
