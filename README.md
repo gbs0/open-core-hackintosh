@@ -81,26 +81,33 @@ So, some kext files I just ignored, since them are used only in **non-desktop** 
 **Graphics Extensions:**
 
 - [X] Lilu.kext
-Lilu plugin providing patches to select GPUs on macOS. In my case I'm using Radeon 5700XT GPU
+
+*Lilu plugin providing patches to select GPUs on macOS. In my case I'm using Radeon 5700XT GPU*
 
 - [X] Whatevergreen.kext
-More GPU drivers and compatibility patches.
+
+*More GPU drivers and compatibility patches.*
 
 **Audio**
+
 - [X] AppleALC.kext
-Used for AppleHDA patching, allowing support for the majority of on-board sound controllers.
+
+*Used for AppleHDA patching, allowing support for the majority of on-board sound controllers.*
 
 **Ethernet Motherboard Ports**
 - [X] IntelMausi.kext
-Intel's 82578, 82579, i217, i218 and i219 NICs are officially supported (which is my case).
+
+*Intel's 82578, 82579, i217, i218 and i219 NICs are officially supported (which is my case).*
 
 **Extras:**
 
 - [X] NVMeFix.kext
-Used for fixing power management and initialization on non-Apple NVMe
+
+*Used for fixing power management and initialization on non-Apple NVMe.*
 
 - [X] CtlnaAHCIPort.kext
-Need to be used instead due to numerous controllers being dropped from the  macOS Big Sur binary itself
+
+*Need to be used instead due to numerous controllers being dropped from the  macOS Big Sur binary itself*
 
 
 
