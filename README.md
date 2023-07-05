@@ -1,4 +1,12 @@
-> ### This README is about the tools and plugins that I use for build this hackintosh version
+### Hackintosh Guide
+#### Tools and Plugins I use to build my own machine.
+
+### Bootloader
+To start our journey, we need a external flash storage to build the EFI bootloader directory:
+Some specs about the drive:
+• **Storage:** At least 2GB storage
+• **Partition Format:** GUID Map Partition
+• **File System:** MacOS Expanded
 
 ### File Structure
  For macOS booting purposes, all the drivers, kernel extensions and hardware mapping are located on `EFI` folder
